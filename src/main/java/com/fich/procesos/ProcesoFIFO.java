@@ -10,7 +10,7 @@ package com.fich.procesos;
  */
 public class ProcesoFIFO extends Proceso {
 
-    public ProcesoFIFO(char nombre, int llegada, int ejecucion) {
+    public ProcesoFIFO(String nombre, int llegada, int ejecucion) {
         this.nombre = nombre;
         this.llegada = llegada;
         this.ejecucion = ejecucion;

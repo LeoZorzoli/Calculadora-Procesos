@@ -12,7 +12,7 @@ public class ProcesoRR extends Proceso {
 
     int tiempoRestante, finalizado;
 
-    public ProcesoRR(char nombre, int llegada, int ejecucion) {
+    public ProcesoRR(String nombre, int llegada, int ejecucion) {
         this.nombre = nombre;
         this.llegada = llegada;
         this.ejecucion = ejecucion;
